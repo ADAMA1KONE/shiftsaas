@@ -1,0 +1,22 @@
+DEPLOYMENT URL: https://shiftsaas.onrender.com
+STATUS: Live — deployed on Render (Free tier)
+DATE: May 11, 2026
+
+LOCAL DEVELOPMENT
+-----------------
+1. cd source_code
+2. pip install -r requirements.txt
+3. python -m app.main
+4. API: http://localhost:5000
+
+START COMMAND (cloud)
+---------------------
+gunicorn app.main:app
+
+TEAM
+----
+220309967  Ahmad Yasin       - Team Leader
+230309011  Mehtap Gultepe    - Developer
+210309813  Adama Kone        - Developer
+230309016  Gulcin Civelek    - Developer
+240309918  Mukhidin Yussupov - Tester
